@@ -6,7 +6,7 @@ public class TV {
 	private int canal;
 	private int precio;
 	private boolean estado;
-	private int volumen = 1;
+	private int volumen;
 	private Control control;
 	private static int numTV;
 	
@@ -16,7 +16,7 @@ public class TV {
 		this.canal = 1;
 		this.volumen = 1;
 		this.precio = 500;
-		TV.numTV++;
+		numTV++;
 	}
 
 	public Marca getMarca() {

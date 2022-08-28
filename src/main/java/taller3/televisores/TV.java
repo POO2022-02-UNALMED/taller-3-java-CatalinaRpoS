@@ -11,7 +11,7 @@ public class TV {
 	private static int numTV;
 	
 	public TV(Marca marca, boolean estado) {
-		this.setMarca(marca);
+		this.marca = marca;
 		this.estado = estado;
 		this.canal = 1;
 		this.volumen = 1;
